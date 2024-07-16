@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start:dev": "nodemon src/index.js"
+    "start:dev": "nodemon src/index.js",
+    "lint": "eslint 'src/**/*.{js,ts}'",
+    "lint:fix": "eslint 'src/**/*.{js,ts}' --fix",
+    "prettier": "prettier --write 'src/**/*.{js,ts,json,css,md}'"
   },
   "keywords": [],
   "author": "",
